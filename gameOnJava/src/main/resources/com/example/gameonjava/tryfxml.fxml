@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gameonjava.HelloController">
+   <children>
+      <ImageView fx:id="bg1" fitHeight="421.0" fitWidth="421.0" layoutX="-7.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/bg.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg2" fitHeight="421.0" fitWidth="421.0" layoutX="414.0" layoutY="-6.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/bg.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy1" fitHeight="89.0" fitWidth="88.0" layoutX="407.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/enemy.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="S_RESIZE" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="pause" fitHeight="103.0" fitWidth="108.0" layoutX="147.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../images/play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wasted" fitHeight="172.0" fitWidth="178.0" layoutX="114.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../images/was.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="150.0" fitWidth="200.0" layoutX="4.0" layoutY="213.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/player.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player1" fitHeight="121.0" fitWidth="67.0" layoutX="73.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../images/images%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyB" fitHeight="64.0" fitWidth="41.0" layoutX="435.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playAgain" fitHeight="44.0" fitWidth="153.0" layoutX="131.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../images/playAgain.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
